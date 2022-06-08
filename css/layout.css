@@ -1,0 +1,54 @@
+.layout-cabecalho{
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+
+.layout-cabecalho--home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.layout-login{
+    position:fixed;
+    top: 0;
+    left: 998;
+    right: 0;
+}
+.layout-principal{
+    padding: 80px;
+    padding-top: 150px;
+    background-color: green;
+}
+.layout-rodape{
+    padding: 40px 0;
+    background-color: #484848;
+
+    color: white;
+    text-align: center;
+}
+
+.layout-carousel{
+    padding-top: 70px;
+    background-color: black;
+}
+.layout-info{
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.layout-legenda-principal{
+    padding-top: 70px;
+    padding-right: 100px;
+    background-color: black;
+    color: white;
+}
+
+.layout-reserva{
+    padding: 160px 0;
+    color: white;
+}
+

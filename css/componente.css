@@ -1,0 +1,194 @@
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.main-imagem-models {
+    background: url('../img/tesla-models.jpg') no-repeat;
+}
+
+.main-imagem-model3 {
+    background: url('../img/tesla-model3.jpg') no-repeat;
+}
+
+.main-imagem-modelx {
+    background: url('../img/tesla-modelx.jpg') no-repeat;
+}
+
+.main-imagem-modely {
+    background: url('../img/tesla-modely.jpg') no-repeat;
+}
+
+.main-banner {
+
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-banner {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*Principal*/
+.principal {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial;
+    height: 1000px;
+}
+
+.principal__titulo {
+    padding-top: 120px;
+    color: #373737;
+
+    /* 54*24 = 2.25em */
+    font-size: 2.25em;
+    line-height: 1;
+
+}
+
+.principal__subtitulo {
+    margin: 10px 0;
+    color: black;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+.principal__sobre {
+    margin: 650px 0;
+    text-align: center;
+}
+
+/*ABOUT US*/
+
+.about-container {
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: white;
+}
+
+.about-titulo{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
+.about-logo{
+    object-fit: cover;
+    width: 50%;
+}
+.about-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+    width: 50%;
+}
+
+/*ABOUT US*/
+
+.modelos-carrossel {
+    margin-top: 20px;
+}
+
+.carousel-item-next.carousel-item-left {
+    display: block !important;
+}
+
+.carousel .carousel-item {
+    height: 800px;
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: -100px;
+    left: 0;
+    min-height: 600px;
+
+
+}
+
+.titulo-caption {
+    margin-bottom: 560px;
+    font-size: 3rem;
+}
+
+.subtitulo-caption {
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
+.subtitulo2-caption {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.descricao {
+    padding: 50px;
+    display: inline-block;
+    width: 800px;
+}
+
+.descricao-img-esquerda {
+    margin-left: 400px;
+    object-fit: cover;
+    width: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+    .descricao-img-esquerda {
+        width: 100%;
+        margin-left: 400px;
+    }
+}
+
+.descricao-img {
+    margin-left: 400px;
+    object-fit: cover;
+    width: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+    .descricao-img {
+        width: 100%;
+        margin-left: 400px;
+    }
+}
+
+.descricao-titulo {
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.descricao-titulo-esquerda {
+    font-size: 2rem;
+    text-align: right;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.descricao-subtitulo {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.descricao-subtitulo-esquerda {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-left: 80px;
+}
